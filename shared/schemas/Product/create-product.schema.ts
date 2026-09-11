@@ -8,4 +8,7 @@ export const CreateProduct = z.object({
   category: Category,
 });
 
+export const UpdateProduct = CreateProduct.partial();
+
+export type UpdateProduct = z.infer<typeof UpdateProduct>;
 export type CreateProduct = z.infer<typeof CreateProduct>;
