@@ -1,0 +1,89 @@
+# =========================
+# BACKEND - NESTJS
+# =========================
+
+fil_rouge/node_modules/
+fil_rouge/dist/
+fil_rouge/build/
+fil_rouge/coverage/
+fil_rouge/.nyc_output/
+
+# Prisma generated
+fil_rouge/src/generated/prisma/
+
+# fil_rouge environment variables
+fil_rouge/.env
+fil_rouge/.env.*
+!fil_rouge/.env.example
+
+# fil_rouge logs
+fil_rouge/logs/
+fil_rouge/*.log
+fil_rouge/npm-debug.log*
+fil_rouge/pnpm-debug.log*
+fil_rouge/yarn-debug.log*
+fil_rouge/yarn-error.log*
+fil_rouge/lerna-debug.log*
+
+# Temporary files
+fil_rouge/.temp/
+fil_rouge/.tmp/
+
+# Diagnostic reports
+fil_rouge/report.*.*.*.*.json
+
+
+# =========================
+# FRONTEND - NUXT
+# =========================
+
+fil-rouge-front/node_modules/
+fil-rouge-front/.nuxt/
+fil-rouge-front/.output/
+fil-rouge-front/dist/
+fil-rouge-front/build/
+
+# Nuxt generated/cache
+fil-rouge-front/.nitro/
+fil-rouge-front/.cache/
+fil-rouge-front/.temp/
+fil-rouge-front/.tmp/
+
+# fil-rouge-front environment variables
+fil-rouge-front/.env
+fil-rouge-front/.env.*
+!fil-rouge-front/.env.example
+
+# fil-rouge-front logs
+fil-rouge-front/logs/
+fil-rouge-front/*.log
+
+
+# =========================
+# IDE
+# =========================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+.fleet/
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+
+
+# =========================
+# GENERAL
+# =========================
+
+*.pid
+*.pid.lock
+*.seed
